@@ -7,6 +7,7 @@
     <title>HAI SAN NGON</title>
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -19,6 +20,29 @@
     />
   </head>
   <body>
-    <h1>Chao</h1>
+    <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="navbar">
+            <h1 class="tittle">HẢI SẢN NGON</h1>
+            <div class="search-bar">
+              <input
+                id="text-search"
+                type="text"
+                placeholder="Nhập thứ mà bạn muốn tìm kiếm"
+                name="search"
+              />
+              <button id="btn-search" type="submit">Tìm Kiếm</button>
+            </div>
+            <ul class="navbar-list">
+              <li class="navbar-item">Tài Khoản</li>
+              <li class="navbar-item">Giỏ Hàng</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="container"></div>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
