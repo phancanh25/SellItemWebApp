@@ -18,9 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="app">
+      <!-- Header -->
       <header class="header">
         <div class="grid">
           <nav class="navbar">
@@ -35,12 +40,52 @@
               <button id="btn-search" type="submit">Tìm Kiếm</button>
             </div>
             <ul class="navbar-list">
-              <li class="navbar-item">Tài Khoản</li>
-              <li class="navbar-item">Giỏ Hàng</li>
+              <li class="navbar-item navbar-account">
+                <i class="fa-regular fa-user navbar-icon"></i>
+                Tài khoản
+              </li>
+              <li class="navbar-item">
+                <i class="fa-solid fa-cart-shopping navbar-icon"></i>
+                <div class="cart">
+                  <div class="cart-quantity">Giỏ Hàng (1)</div>
+                  <div class="price">800d</div>
+                </div>
+              </li>
             </ul>
           </nav>
         </div>
+        <div class="bottom-nav">
+          <div class="grid">
+            <ul class="bottom-nav__list">
+              <li class="bottom-nav__item bottom-nav__list-item">
+                <a href="" class="list-item bottom-nav__link"
+                  >DANH MỤC SẢN PHẨM</a
+                >
+                <i class="fa-sharp fa-solid fa-bars bottom-nav__link"></i>
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Trang chủ
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Sản phẩm
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Khuyến mãi
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Chính sách
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Hỗ trợ
+              </li>
+              <li class="bottom-nav__item">
+                <a href="" class="bottom-nav__link" />Bài đăng
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
+
       <div class="container"></div>
       <footer class="footer"></footer>
     </div>
