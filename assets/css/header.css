@@ -50,10 +50,17 @@
 
 .navbar-icon {
   font-size: 4rem;
+  margin-bottom: 10px;
 }
 
 .navbar-account {
   margin: 0 30px;
+  position: relative;
+  float: left;
+}
+
+.navbar-account:hover .dropdown-wrapper {
+  display: block;
 }
 
 .navbar-item {
@@ -62,6 +69,7 @@
   font-size: 1.5rem;
   color: var(--white-color);
   font-weight: 700;
+  margin-left: 20px;
 }
 
 .navbar-list {
@@ -102,4 +110,108 @@
   width: 285px;
   display: flex;
   justify-content: space-between;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: red;
+  height: 210px;
+  width: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  background-color: var(--white-color);
+}
+
+.dropdown::before {
+  content: "";
+  border-top: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  position: absolute;
+  top: -16px;
+  right: 180px;
+}
+
+.dropdown-item {
+  width: 200px;
+  height: 35px;
+  background-color: var(--white-color);
+  font-size: 1.8rem;
+}
+
+.dropdown-wrapper {
+  display: none;
+  animation: fadeIn ease-in 0.3s;
+}
+
+.btn-signin {
+  background-color: orange;
+  color: var(--white-color);
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-signup {
+  background-color: orange;
+  color: var(--white-color);
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-facebook {
+  background-color: blue;
+  color: var(--white-color);
+  border-radius: 3px;
+  border: none;
+}
+
+.btn-google {
+  background-color: red;
+  color: var(--white-color);
+  border: none;
+  border-radius: 3px;
+}
+
+.cart-dropdown-wrapper {
+  height: 450px;
+  width: 305px;
+  background-color: aqua;
+  position: absolute;
+}
+
+.navbar-cart {
+  position: relative;
+}
+
+.cart-dropdown-wrapper::before {
+  content: "";
+  border-top: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  position: absolute;
+  top: -16px;
+  right: 230px;
+}
+
+.cart-dropdown {
+  padding: 15px;
+}
+
+.cart-item__image {
+  width: 70px;
+  height: 100%;
+  float: left;
+  margin-right: 5px;
+}
+
+.cart-dropdown__content {
+  height: 165px;
+  background-color: red;
+  position: relative;
+  /* overflow-y: auto; */
+  overflow: auto;
 }

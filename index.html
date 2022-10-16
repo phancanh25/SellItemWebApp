@@ -43,12 +43,71 @@
               <li class="navbar-item navbar-account">
                 <i class="fa-regular fa-user navbar-icon"></i>
                 Tài khoản
+                <div class="dropdown-wrapper">
+                  <div class="dropdown">
+                    <button class="dropdown-item btn-signin">Đăng nhâp</button
+                    ><button class="dropdown-item btn-signup">Đăng ký</button
+                    ><button class="dropdown-item btn-facebook">Facebook</button
+                    ><button class="dropdown-item btn-google">Google</button>
+                  </div>
+                </div>
               </li>
-              <li class="navbar-item">
+              <li class="navbar-item navbar-cart">
                 <i class="fa-solid fa-cart-shopping navbar-icon"></i>
                 <div class="cart">
                   <div class="cart-quantity">Giỏ Hàng (1)</div>
                   <div class="price">800d</div>
+                </div>
+                <div class="cart-dropdown-wrapper">
+                  <div class="cart-dropdown">
+                    <div class="cart-dropdown__content">
+                      <div class="cart-item__image">
+                        <img src="/assets/img/img-test.png" alt="Test Pic" />
+                      </div>
+                      <div class="cart-item-info">
+                        <div class="cart-item__tittle">
+                          <a href="">THỊT BÒ LOẠI 1</a>
+                        </div>
+                        <span
+                          >Giá cả sản phẩm liên tục thay đổi tùy theo thời điểm.
+                          Liên hệ Hotline 0901.3839.26 - 0914.36.0078 để biết
+                          thêm chi tiết</span
+                        >
+                        <div class="cart-item__quantity">
+                          <input type="number" value="1" />
+                        </div>
+                        <div class="cart-item__price">300,000đ</div>
+                      </div>
+                    </div>
+                    <div class="cart-dropdown__content">
+                      <div class="cart-item__image">
+                        <img src="/assets/img/img-test.png" alt="Test Pic" />
+                      </div>
+                      <div class="cart-item-info">
+                        <div class="cart-item__tittle">
+                          <a href="">THỊT BÒ LOẠI 1</a>
+                        </div>
+                        <span
+                          >Giá cả sản phẩm liên tục thay đổi tùy theo thời điểm.
+                          Liên hệ Hotline 0901.3839.26 - 0914.36.0078 để biết
+                          thêm chi tiết</span
+                        >
+                        <div class="cart-item__quantity">
+                          <input type="number" value="1" />
+                        </div>
+                        <div class="cart-item__price">300,000đ</div>
+                      </div>
+                    </div>
+                    <div class="cart-dropdown__price">
+                      <span>Tổng tiền</span>
+                      <span>2,123,123đ</span>
+                    </div>
+
+                    <div class="cart-dropdown__button">
+                      <button class="show-cart">Xem giỏ hàng</button>
+                      <button class="pay-cart">Thanh toán</button>
+                    </div>
+                  </div>
                 </div>
               </li>
             </ul>
