@@ -22,6 +22,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
   </head>
   <body>
     <div class="app">
@@ -44,11 +48,16 @@
                 <i class="fa-regular fa-user navbar-icon"></i>
                 Tài khoản
                 <div class="dropdown-wrapper">
-                  <div class="dropdown">
-                    <button class="dropdown-item btn-signin">Đăng nhâp</button
-                    ><button class="dropdown-item btn-signup">Đăng ký</button
-                    ><button class="dropdown-item btn-facebook">Facebook</button
-                    ><button class="dropdown-item btn-google">Google</button>
+                  <div class="list-dropdown">
+                    <button class="list-dropdown_item btn-signin">
+                      Đăng nhâp</button
+                    ><button class="list-dropdown_item btn-signup">
+                      Đăng ký</button
+                    ><button class="list-dropdown_item btn-facebook">
+                      Facebook</button
+                    ><button class="list-dropdown_item btn-google">
+                      Google
+                    </button>
                   </div>
                 </div>
               </li>
@@ -203,7 +212,7 @@
         </div>
       </header>
       <!-- -----------------------------Body----------------------------- -->
-      <div class="container">
+      <div class="container-content">
         <div class="grid">
           <div class="containner-wrapper">
             <div class="top-left__bar">
@@ -315,10 +324,375 @@
             </div>
           </div>
         </div>
-      </div>
+        <div class="grid">
+          <div class="container-fluid">
+            <div class="product-heading">
+              <h2 class="product-heading__name">
+                <span>Tôm</span>
+              </h2>
+            </div>
+            <div class="row product-row-wrapper">
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
 
+            <div class="product-heading">
+              <h2 class="product-heading__name">
+                <span>Gà 50kg</span>
+              </h2>
+            </div>
+            <div class="row product-row-wrapper">
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-2 product-wrapper">
+                <div class="product">
+                  <img
+                    class="product-image"
+                    src="./assets/img/bach-tuoc.jpg"
+                    alt="Squid"
+                  />
+                  <span class="product-name">
+                    <a href="#" class="product-name__link">Tuộc nhật</a>
+                  </span>
+                  <span class="product-price"> 950,000đ </span>
+                  <button class="btn-add-to-cart">
+                    Chọn mua <i class="fa-sharp fa-solid fa-cart-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- ------------------------------Footer--------------------------------- -->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="grid">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="footer-top__block">
+                    <h3 class="footer-top__tittle">
+                      Sản phẩm tươi ngon bán chạy
+                    </h3>
+                    <ul class="footer-top__list">
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Hải sản tươi ngon</a
+                        >
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Cua, ghẹ</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Sò, ốc</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Mực bạch tuộc</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="footer-top__block">
+                    <h3 class="footer-top__tittle">
+                      Sản phẩm tươi ngon bán chạy
+                    </h3>
+                    <ul class="footer-top__list">
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Hải sản tươi ngon</a
+                        >
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Cua, ghẹ</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Sò, ốc</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Mực bạch tuộc</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="footer-top__block">
+                    <h3 class="footer-top__tittle">
+                      Sản phẩm tươi ngon bán chạy
+                    </h3>
+                    <ul class="footer-top__list">
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Hải sản tươi ngon</a
+                        >
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Cua, ghẹ</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link">Sò, ốc</a>
+                      </li>
+                      <li class="footer-top__item">
+                        <a href="#" class="footer-top__item--link"
+                          >Mực bạch tuộc</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="footer-top__block">
+                    <h3 class="footer-top__tittle">Theo dõi fanpage</h3>
+                    <div class="footer-top__follow">
+                      <img
+                        src="./assets/img/img-test.png"
+                        alt="Hải sản ngon icon"
+                        id="footer-top__follow--img"
+                      />
+                      <div class="footer-top__follow--content">
+                        <a href="#" class="footer-top__follow--tittle"
+                          >hải sản ngon</a
+                        >
+                        <button class="footer-top__follow--btn-follow">
+                          <i class="fa-brands fa-square-facebook"></i>Theo dõi
+                          trang
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="grid">
+            <span id="footer-bottom__name">HẢI SẢN ngon</span>
+            <span id="footer-bottom__mst">MST: 41O8038871</span>
+            <span id="footer-bottom__address"
+              >Địa chỉ: 121 Đặng Thùy Trâm, P.13, Q. Bình Thạnh, Tp. Hồ Chí
+              Minh</span
+            >
+            <span id="footer-bottom__phone"
+              >Hotline: 0914.36.0078 - 0901.3839.26</span
+            >
+            <span id="footer-bottom__email"
+              >Email: ganhhaisan.vn @gmail.com</span
+            >
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
+
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
